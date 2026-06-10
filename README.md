@@ -15,7 +15,6 @@ A centralized dashboard is required to track key banking metrics and support dat
 * Track customer transaction behavior
 * Evaluate account activity
 * Analyze branch performance
-* Assess loan portfolio health
 * Identify high-value customers
 * Detect inactive customers
 
@@ -221,6 +220,8 @@ ORDER BY total_exposure DESC;
 
 
 
+
+
 ## 📈 Key Findings
 
 * **Portfolio  Overview:** The institution manages **$120M** in total transaction value across a portfolio of **1,097** customers, balancing an active loan book of **$17M**.
@@ -232,12 +233,17 @@ ORDER BY total_exposure DESC;
 
 * Improved visibility into customer behavior, transaction activity, and branch performance through a centralized dashboard.
 * Enabled data-driven decision-making by providing actionable insights across customers, accounts, transactions, and loans.
-* **Credit Risk Mitigation & Exposure Control:** Identifying a specific segment of high-risk borrowers holding multiple active concurrent loans allows the credit risk team to implement stricter debt-to-income caps. This proactive auditing directly reduces non-performing loans  and safeguards institutional capital.
+* **Loan Exposure Control:** Identifying a specific segment of high-risk borrowers holding multiple active concurrent loans allows the credit risk team to implement stricter debt-to-income caps.
 * **Optimizing Branch Capital Allocation:** The distinct financial variances highlighted by branch-level cash flow visualizations allow leadership to optimize physical footprint strategies. High-performing deposit nodes can be prioritized for premium wealth-management services, while branches with net cash outflows can look toward operational restructuring.
 * **Targeted Customer Retention & Wealth Management:** Isolating the small tier of core enterprise and high-net-worth individual clients who hold the vast majority of total ledger balances allows for the creation of dedicated VIP retention pipelines. Safeguarding these accounts stabilizes the bank's deposit base used for lending.
-* **Proactive Attrition & At-Risk Account Management:** Utilizing the dormancy auditing pipeline to target accounts with zero transactional touchpoints over a trailing 90-day window enables automated win-back marketing campaigns. Re-engaging these customers early prevents complete account closure and customer churn.
+* ** At-Risk Account Management:** Utilizing the dormancy auditing pipeline to target accounts with zero transactional touchpoints over a trailing 90-day window enables automated win-back marketing campaigns. Re-engaging these customers early prevents complete account closure and customer churn.
 
   ## Dashboard Screenshots
 
 ![Overview Dashboard](Images/dashboard.png)
+
+
+
+
+
 
