@@ -239,5 +239,5 @@ ORDER BY total_exposure DESC;
 
   ## Dashboard Screenshots
 
-![Overview Dashboard](Dahboard-Images/overview-dashboard.png)
+![Overview Dashboard](Images/dashboard.png)
 
